@@ -13,6 +13,8 @@
 		A777F26F1F109E5300ACE0D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A777F26D1F109E5300ACE0D6 /* Main.storyboard */; };
 		A777F2711F109E5300ACE0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A777F2701F109E5300ACE0D6 /* Assets.xcassets */; };
 		A777F2741F109E5300ACE0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A777F2721F109E5300ACE0D6 /* LaunchScreen.storyboard */; };
+		A777F27D1F109FD200ACE0D6 /* BLETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A777F27C1F109FD200ACE0D6 /* BLETableViewCell.m */; };
+		A777F2801F10A49400ACE0D6 /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A777F27F1F10A49400ACE0D6 /* BLEModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A777F2701F109E5300ACE0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A777F2731F109E5300ACE0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A777F2751F109E5300ACE0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A777F27B1F109FD200ACE0D6 /* BLETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETableViewCell.h; sourceTree = "<group>"; };
+		A777F27C1F109FD200ACE0D6 /* BLETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETableViewCell.m; sourceTree = "<group>"; };
+		A777F27E1F10A49400ACE0D6 /* BLEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		A777F27F1F10A49400ACE0D6 /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				A777F2681F109E5300ACE0D6 /* AppDelegate.m */,
 				A777F26A1F109E5300ACE0D6 /* ViewController.h */,
 				A777F26B1F109E5300ACE0D6 /* ViewController.m */,
+				A777F27B1F109FD200ACE0D6 /* BLETableViewCell.h */,
+				A777F27C1F109FD200ACE0D6 /* BLETableViewCell.m */,
+				A777F27E1F10A49400ACE0D6 /* BLEModel.h */,
+				A777F27F1F10A49400ACE0D6 /* BLEModel.m */,
 				A777F26D1F109E5300ACE0D6 /* Main.storyboard */,
 				A777F2701F109E5300ACE0D6 /* Assets.xcassets */,
 				A777F2721F109E5300ACE0D6 /* LaunchScreen.storyboard */,
@@ -154,6 +164,8 @@
 				A777F26C1F109E5300ACE0D6 /* ViewController.m in Sources */,
 				A777F2691F109E5300ACE0D6 /* AppDelegate.m in Sources */,
 				A777F2661F109E5300ACE0D6 /* main.m in Sources */,
+				A777F2801F10A49400ACE0D6 /* BLEModel.m in Sources */,
+				A777F27D1F109FD200ACE0D6 /* BLETableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
