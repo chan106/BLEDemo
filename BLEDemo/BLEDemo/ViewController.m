@@ -34,6 +34,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setup];
 }
 
 - (void)setup{
@@ -91,6 +92,7 @@
 #pragma mark 【5】连接外部蓝牙设备成功
 - (void)centralManager:(CBCentralManager *)central
   didConnectPeripheral:(CBPeripheral *)peripheral{
+    
 }
 
 #pragma mark 【6】连接外部蓝牙设备失败
