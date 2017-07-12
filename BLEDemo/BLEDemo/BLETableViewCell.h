@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BLEModel;
 
 @interface BLETableViewCell : UITableViewCell
+
+@property (nonatomic, strong) BLEModel *model;
 
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "BLETableViewCell.h"
+#import "BLEModel.h"
+#import <CoreBluetooth/CoreBluetooth.h>
 
 @interface BLETableViewCell  ()
 
@@ -20,6 +22,12 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+}
+
+- (void)setModel:(BLEModel *)model{
+    _model = model;
+    _BLEtitleLabel.text = model.peripheral.name;
+    _BLERSSILabel.text = model.rssi.stringValue;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
